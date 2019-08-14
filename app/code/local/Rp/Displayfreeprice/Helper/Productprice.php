@@ -14,5 +14,17 @@ class Rp_Displayfreeprice_Helper_Productprice extends Mage_Core_Helper_Data {
 			return $retval;
 		}
     }
+	public static function currency( $price , $format=true , $includeContainer = true )
+    {
+        $modelPrice = Mage::getModel('Displayfreeprice/Price');
+        if( empty( $modelPrice ) ){
+            require_once ( Mage::getBaseDir('app') . '/code/local/Testing/Displayfreeprice/Model/Freeprice.php');
+            $modelPrice = new Testing_Displayfreeprice_Model_Price();
+        }
+
+        $retval = $modelPrice->_toHtml( $price );
+        return $retval == NULL ? parent::currency( $price, $format=true, $includeContainer = true ) : $retval;
+            
+    }
 }
 ?>
