@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Rp_Display_Price_Free</name>
-    <version>0.1.2</version>
+    <version>0.2.0</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
     <channel>community</channel>
@@ -26,9 +26,9 @@ Magento CE version 1.8.x&#xD;
 Magento CE version 1.9.x</description>
     <notes>none</notes>
     <authors><author><name>Mage Rips</name><user>magerips</user><email>rpmagerips@gmail.com</email></author></authors>
-    <date>2015-01-03</date>
-    <time>12:29:31</time>
-    <contents><target name="mageetc"><dir name="modules"><file name="Rp_Displayfreeprice.xml" hash="a1e777af0c0c0dba0dd67050e74b9b0e"/></dir></target><target name="magelocal"><dir name="Rp"><dir name="Displayfreeprice"><dir name="Helper"><file name="Data.php" hash="c0052699d060b23ace7a5ff5eb23a5a4"/><file name="Productprice.php" hash="f8ae2e5a82ce4e17194311dfbc1b544f"/></dir><dir name="Model"><file name="Freeprice.php" hash="f4f05e4e0df7b8d2e51814689d58fd21"/></dir><dir name="etc"><file name="adminhtml.xml" hash="ca631730f2440d101a2e0130554544d9"/><file name="config.xml" hash="d5583ab8e6c4ab06bd227feaff65a24e"/><file name="system.xml" hash="625d55d2018981858ad78390a0154fb1"/></dir></dir></dir></target></contents>
+    <date>2015-05-20</date>
+    <time>17:51:29</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Rp_Displayfreeprice.xml" hash="a1e777af0c0c0dba0dd67050e74b9b0e"/></dir></target><target name="magelocal"><dir name="Rp"><dir name="Displayfreeprice"><dir name="Helper"><file name="Data.php" hash="c0052699d060b23ace7a5ff5eb23a5a4"/><file name="Productprice.php" hash="f8ae2e5a82ce4e17194311dfbc1b544f"/></dir><dir name="Model"><file name="Freeprice.php" hash="f4f05e4e0df7b8d2e51814689d58fd21"/></dir><dir name="etc"><file name="adminhtml.xml" hash="ca631730f2440d101a2e0130554544d9"/><file name="config.xml" hash="3fbce79c05d49a4e0d963b16535f909c"/><file name="system.xml" hash="625d55d2018981858ad78390a0154fb1"/></dir></dir></dir></target><target name="magedesign"><dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="rp_displayfreeprice.xml" hash="7b996053e5799a06cded74fd9b43bbdf"/></dir></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.0.1</min><max>6.0.0</max></php></required></dependencies>
 </package>

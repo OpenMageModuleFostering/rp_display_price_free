@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Rp_Displayfreeprice>
-       		<version>0.1.2</version>
+       		<version>0.2.0</version>
         </Rp_Displayfreeprice>
     </modules> 
     <global>
@@ -18,6 +18,15 @@
             </displayfreeprice>
         </helpers>
     </global>
+	<frontend>
+        <layout>
+            <updates>
+                <displayfreeprice>
+                    <file>rp_displayfreeprice.xml</file>
+                </displayfreeprice>
+            </updates>
+        </layout>
+    </frontend>
 	<default>
 		<displayfreeprice>
 			<general>
