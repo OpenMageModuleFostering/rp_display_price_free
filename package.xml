@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+    <name>Rp_Display_Price_Free</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Display product as FREE when product price is $0.00 on frontend.</summary>
+    <description>Display product as FREE when product price is $0.00 on frontend. Enable or Disable extension as per requirement.&#xD;
+Installation steps:&#xD;
+----------&#xD;
+- Its very easy to install, just copy app/ folder and paste on your magento root folder.&#xD;
+- You are done with installation. &#xD;
+- Login into store backend, flush all cache or disable all cache in System -&gt; Cache Management.&#xD;
+- Logout and login again from Backend to reload.&#xD;
+- The extension should be installed and you can use it.</description>
+    <notes>None</notes>
+    <authors><author><name>Mage Rips</name><user>magerips</user><email>rpmagerips@gmail.com</email></author></authors>
+    <date>2015-01-01</date>
+    <time>10:35:46</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Rp_Displayfreeprice.xml" hash="a1e777af0c0c0dba0dd67050e74b9b0e"/></dir></target><target name="magelocal"><dir name="Rp"><dir name="Displayfreeprice"><dir name="Helper"><file name="Data.php" hash="c0052699d060b23ace7a5ff5eb23a5a4"/><file name="Productprice.php" hash="46ecc2c0e3395985d56080294c3b237f"/></dir><dir name="Model"><file name="Freeprice.php" hash="f4f05e4e0df7b8d2e51814689d58fd21"/></dir><dir name="etc"><file name="adminhtml.xml" hash="ca631730f2440d101a2e0130554544d9"/><file name="config.xml" hash="c604d3331e94eec4629c7290fb21517b"/><file name="system.xml" hash="625d55d2018981858ad78390a0154fb1"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.1</min><max>6.0.0</max></php></required></dependencies>
+</package>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Rp_Displayfreeprice>
+       		<version>0.1.0</version>
+        </Rp_Displayfreeprice>
+    </modules> 
+    <global>
+        <blocks></blocks>
+        <helpers>
+            <core>
+                <rewrite>
+                    <data>Rp_Displayfreeprice_Helper_Productprice</data>
+                </rewrite>
+            </core>
+            <displayfreeprice>
+                    <class>Rp_Displayfreeprice_Helper</class>
+            </displayfreeprice>
+        </helpers>
+    </global>
+	<default>
+		<displayfreeprice>
+			<general>
+				<freeprice_text>FREE</freeprice_text>
+			</general>
+		</displayfreeprice>
+	</default>
+</config>

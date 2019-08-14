@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Rp_Display_Price_Free",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "Display product as FREE when product price is $0.00 on frontend.",
+    "authors": [
+    {
+        "name": "Mage Rips",
+        "email": "rpmagerips@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
