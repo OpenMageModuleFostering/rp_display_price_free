@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Rp_Display_Price_Free",
+    "name": "openmage-module-fostering\/rp_display_price_free",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Display product price as FREE when product price is $0.00 on frontend. Enable or Disable extension as per requirement.",
     "authors": [
